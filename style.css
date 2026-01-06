@@ -4,7 +4,7 @@ body{
     padding: 0;
 }
 
-.top {
+.top, .foot {
     margin:none;
     background-color: #1f2937 ;
     padding-left: 200px;
@@ -13,18 +13,25 @@ body{
     flex-direction: column;
 }
 
+.foot{
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .title{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
-.desc, .header-links a{
+.desc, .header-links a, .Copyright{
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.logo{
+.logo, .call{
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -60,6 +67,8 @@ button{
     border: none;
     border-radius: 10px;
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #f9faf8;
     font-weight: bold;
     font-size: 18px;
@@ -70,4 +79,72 @@ button{
     flex-direction: column;
     gap:10px;
     align-items: flex-start;
+}
+
+.title1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px;
+}
+
+.s1illust{
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    max-width: 175px;
+    max-height: auto;
+}
+
+.iltext{
+    max-width: 175px;
+    font-size: 18px;
+    color: #727272;
+}
+
+.illustrations{
+    display: flex;
+    padding-left: 375px;
+    padding-right: 375px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.illus-text{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.section-2{
+    background-color: #e5e7eb;
+    padding: 150px 400px 150px 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.signature{
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 22px;
+    align-self: flex-end;
+}
+
+.section-3{
+    background-color: #3882f6;
+    margin: 100px 200px 100px 200px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;;
+}
+
+#sign2{
+    border: 2px solid #f9faf8;
 }
